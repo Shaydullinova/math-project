@@ -9,6 +9,7 @@ html {
 body{
     font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1.6;
+    background-color: #ffffff;
 }
 main {
     padding: 20px;
@@ -75,3 +76,4 @@ a:hover {
 .about-project ul{
     padding-left: 30px;
 }
+
