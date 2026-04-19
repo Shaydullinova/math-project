@@ -9,6 +9,17 @@
     scroll-behavior: smooth;
 }
 
+.reveal{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -19,23 +30,37 @@ body {
 /* Навигация */
 .navbar {
     display: flex;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background: #fff;
+    padding: 10px 40px;
+    background: rgba(255, 255, 255);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 .logo {
-    font-weight: bold;
-    font-size: 24px;
-    color: #003366;
-    /* Темно-синий акцент */
+    display: flex;
+    align-items: center;
+}
+
+.logo-link{
+    display: block;
+    text-decoration: none;
+}
+.logo-img{
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    transition: height 0.3s ease;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
+    font-size: 18px;
 }
 
 .nav-links li {
@@ -55,7 +80,7 @@ body {
 
 /* Баннер (Hero) */
 .hero {
-    height: 60vh;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)),url('https://sun9-4.userapi.com/s/v1/ig2/exCuLP3ywPCkXAzUa4JddlzklMV2ZSi9e4gUpV45ELwjE0_EmYQipBY69tC4b45k0GHNweX71J9zorfONEY9u5I9.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1350x900&from=bu&u=ice0LIG97E_E-KvATUPjL0rJmBKY3LEHYwoY9yo91V4&cs=1350x0');
     background-size: cover;
     background-position: center;
@@ -129,7 +154,7 @@ body {
 }
 
 .img-2 {
-    background-image: url('https://avatars.dzeninfra.ru/get-zen_doc/3822405/pub_5fb5e24c42f9ca1da1d9730e_5fb5e3cf6bd43436fcc62f3a/scale_1200');
+    background-image: url('https://dnr-news.ru/img/20240403/9c8ab092643f158a32afa786583eb165.jpg');
 }
 
 .img-3 {
@@ -230,7 +255,8 @@ body {
 }
 
 .example-img {
-    height: 180px;
+    width: 100%;
+    height: 250px;
     background-size: cover;
     background-position: center;
     border-bottom: 3px solid #003366;
@@ -238,17 +264,35 @@ body {
 
 /* Ссылки на изображения (замени на реальные файлы) */
 .ex-1 {
-    background-image: url('painting1.jpg');
+    background-image: url('https://upload.wikimedia.org/wikipedia/ru/6/63/V.P.Trofimov_-_altai.jpg');
 }
 
 .ex-2 {
-    background-image: url('painting2.jpg');
+    background-image: url('https://avatars.mds.yandex.net/i?id=771496a62cf5e295cb8cb0df74d76fcf_l-5312482-images-thumbs&n=13');
 }
 
 .ex-3 {
-    background-image: url('painting3.jpg');
+    background-image: url('https://yavarda.ru/images/artmir/sub_77096.jpg');
+}
+.ex-4{
+    background-image:url('https://0d314c86-f76b-45cc-874e-45816116a667.selcdn.net/e80b3ce5-621a-4e95-b535-89758da2f7c8.jpg');
 }
 
+.ex-5{
+    background-image:url('https://admhmansy.ru/upload/iblock/957/i7x137j24qfo0opt7eylw1e7aklhpwmd/rOto5hWgqgk.jpg');
+}
+.ex-6{
+    background-image:url('https://avatars.mds.yandex.net/get-altay/3986639/2a00000179d81fccb0cd038ea206011a7037/orig');
+}
+.ex-7{
+    background-image: url(images/img7.png);
+}
+.ex-8{
+    background-image: url(images/img8.png);
+}
+.ex-9{
+    background-image: url(images/img9.png);
+}
 .example-info {
     padding: 20px;
 }
@@ -270,6 +314,11 @@ body {
     font-size: 0.95rem;
     line-height: 1.5;
     text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Футер */
