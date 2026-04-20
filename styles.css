@@ -60,7 +60,7 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nav-links li {
@@ -78,7 +78,7 @@ body {
     text-decoration-line: underline;
 }
 
-/* Баннер (Hero) */
+
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)),url('https://sun9-4.userapi.com/s/v1/ig2/exCuLP3ywPCkXAzUa4JddlzklMV2ZSi9e4gUpV45ELwjE0_EmYQipBY69tC4b45k0GHNweX71J9zorfONEY9u5I9.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1350x900&from=bu&u=ice0LIG97E_E-KvATUPjL0rJmBKY3LEHYwoY9yo91V4&cs=1350x0');
@@ -95,6 +95,11 @@ body {
 .hero h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    text-transform: uppercase;    
+}
+
+.map{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
 }
 
 .btn {
@@ -111,7 +116,6 @@ body {
     background: #022a52;
 }
 
-/* Сетка карточек */
 .container {
     padding: 60px;
 }
@@ -128,7 +132,7 @@ body {
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
-    /* Чтобы на маленьких экранах карточки переносились */
+
 }
 
 .card {
@@ -159,9 +163,23 @@ body {
 }
 
 .img-3 {
-    background-image: url('https://ivgoradm.ru/attaches/DSCF1016-1.JPG');
+    background-image: url('https://torange.biz/photo/41/IMAGE/ukrainian-trade-souvenirs-wooden-dishes-41512.jpg');
 }
-
+.img-4{
+    background-image: url('https://moya-planeta.ru/upload/images/xl/7b/ee/7bee8799704035c615b499da0e1de668740ec620.jpg');
+}
+.img-5{
+    background-image: url('https://gpvn.ru/files/2025/12/5-330.jpg');
+}
+.img-6{
+    background-image: url('https://avatars.mds.yandex.net/i?id=451f44fa2f4d9ae6b6ee2c09d4c475d59926bb3a-10577947-images-thumbs&n=13');
+}
+.img-7{
+    background-image: url('https://fleetphoto.ru/photo/01/29/07/129070.jpg');
+}
+.img-8{
+    background-image: url('https://avatars.mds.yandex.net/get-altay/5751673/2a0000017d1c5902728d4c7e9f6e628cf106/XXXL');
+}
 .card-body {
     padding: 20px;
 }
@@ -262,8 +280,6 @@ body {
     background-position: center;
     border-bottom: 3px solid #003366;
 }
-
-/* Ссылки на изображения (замени на реальные файлы) */
 .ex-1 {
     background-image: url('https://upload.wikimedia.org/wikipedia/ru/6/63/V.P.Trofimov_-_altai.jpg');
 }
@@ -322,7 +338,6 @@ a{
     color: black;
 }
 
-/* Футер */
 footer {
     background: #333;
     color: #fff;
