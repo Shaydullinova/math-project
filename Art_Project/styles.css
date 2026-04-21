@@ -82,7 +82,7 @@ body {
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('https://sun9-4.userapi.com/s/v1/ig2/exCuLP3ywPCkXAzUa4JddlzklMV2ZSi9e4gUpV45ELwjE0_EmYQipBY69tC4b45k0GHNweX71J9zorfONEY9u5I9.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1350x900&from=bu&u=ice0LIG97E_E-KvATUPjL0rJmBKY3LEHYwoY9yo91V4&cs=1350x0');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('images/hero-back.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -156,39 +156,39 @@ body {
 }
 
 .img-1 {
-    background-image: url('https://pic.rutubelist.ru/video/2024-10-02/56/f8/56f8ae6406739bba301ea4a0beaba92f.jpg');
+    background-image: url('images/img-1.jpg');
 }
 
 .img-2 {
-    background-image: url('https://dnr-news.ru/img/20240403/9c8ab092643f158a32afa786583eb165.jpg');
+    background-image: url('images/img-2.jpg');
 }
 
 .img-3 {
-    background-image: url('https://torange.biz/photo/41/IMAGE/ukrainian-trade-souvenirs-wooden-dishes-41512.jpg');
+    background-image: url('images/img-3.jpg');
 }
 
 .img-4 {
-    background-image: url('https://moya-planeta.ru/upload/images/xl/7b/ee/7bee8799704035c615b499da0e1de668740ec620.jpg');
+    background-image: url('images/img-4.jpg');
 }
 
 .img-5 {
-    background-image: url('https://gpvn.ru/files/2025/12/5-330.jpg');
+    background-image: url('images/img-5.jpg');
 }
 
 .img-6 {
-    background-image: url('https://avatars.mds.yandex.net/i?id=451f44fa2f4d9ae6b6ee2c09d4c475d59926bb3a-10577947-images-thumbs&n=13');
+    background-image: url('images/img-6.webp');
 }
 
 .img-7 {
-    background-image: url('https://fleetphoto.ru/photo/01/29/07/129070.jpg');
+    background-image: url('images/img-7.jpg');
 }
 
 .img-8 {
-    background-image: url('https://avatars.mds.yandex.net/get-altay/5751673/2a0000017d1c5902728d4c7e9f6e628cf106/XXXL');
+    background-image: url('images/img-8.webp');
 }
 
 .img-9 {
-    background-image: url('https://img.ixbt.site/live/topics/preview/00/11/20/07/93aedc9a99.png')
+    background-image: url('images/img-9.png')
 }
 
 .card-body {
@@ -293,39 +293,39 @@ body {
 }
 
 .ex-1 {
-    background-image: url('https://upload.wikimedia.org/wikipedia/ru/6/63/V.P.Trofimov_-_altai.jpg');
+    background-image: url('images/ex-1.jpg');
 }
 
 .ex-2 {
-    background-image: url('https://avatars.mds.yandex.net/i?id=771496a62cf5e295cb8cb0df74d76fcf_l-5312482-images-thumbs&n=13');
+    background-image: url('images/ex-2.webp');
 }
 
 .ex-3 {
-    background-image: url('https://yavarda.ru/images/artmir/sub_77096.jpg');
+    background-image: url('images/ex-3.jpg');
 }
 
 .ex-4 {
-    background-image: url('https://0d314c86-f76b-45cc-874e-45816116a667.selcdn.net/e80b3ce5-621a-4e95-b535-89758da2f7c8.jpg');
+    background-image: url('images/ex-4.webp');
 }
 
 .ex-5 {
-    background-image: url('https://admhmansy.ru/upload/iblock/957/i7x137j24qfo0opt7eylw1e7aklhpwmd/rOto5hWgqgk.jpg');
+    background-image: url('images/ex-5.jpg');
 }
 
 .ex-6 {
-    background-image: url('https://avatars.mds.yandex.net/get-altay/3986639/2a00000179d81fccb0cd038ea206011a7037/orig');
+    background-image: url('images/ex-6.jpg');
 }
 
 .ex-7 {
-    background-image: url(images/img7.png);
+    background-image: url('images/img7.png');
 }
 
 .ex-8 {
-    background-image: url(images/img8.png);
+    background-image: url('images/img8.png');
 }
 
 .ex-9 {
-    background-image: url(images/img9.png);
+    background-image: url('images/img9.png');
 }
 
 .example-info {
