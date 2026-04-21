@@ -9,13 +9,13 @@
     scroll-behavior: smooth;
 }
 
-.reveal{
+.reveal {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.8s ease-out;
 }
 
-.reveal.active{
+.reveal.active {
     opacity: 1;
     transform: translateY(0);
 }
@@ -46,11 +46,12 @@ body {
     align-items: center;
 }
 
-.logo-link{
+.logo-link {
     display: block;
     text-decoration: none;
 }
-.logo-img{
+
+.logo-img {
     height: 50px;
     width: auto;
     object-fit: contain;
@@ -63,17 +64,17 @@ body {
     font-size: 16px;
 }
 
-.nav-links li {
+.nav-link {
     margin-left: 20px;
 }
 
-.nav-links a {
+.nav-item {
     text-decoration: none;
     color: #333;
     transition: 0.3s;
 }
 
-.nav-links a:hover {
+.nav-item:hover {
     color: #003366;
     text-decoration-line: underline;
 }
@@ -81,7 +82,7 @@ body {
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)),url('https://sun9-4.userapi.com/s/v1/ig2/exCuLP3ywPCkXAzUa4JddlzklMV2ZSi9e4gUpV45ELwjE0_EmYQipBY69tC4b45k0GHNweX71J9zorfONEY9u5I9.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1350x900&from=bu&u=ice0LIG97E_E-KvATUPjL0rJmBKY3LEHYwoY9yo91V4&cs=1350x0');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('https://sun9-4.userapi.com/s/v1/ig2/exCuLP3ywPCkXAzUa4JddlzklMV2ZSi9e4gUpV45ELwjE0_EmYQipBY69tC4b45k0GHNweX71J9zorfONEY9u5I9.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1350x900&from=bu&u=ice0LIG97E_E-KvATUPjL0rJmBKY3LEHYwoY9yo91V4&cs=1350x0');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -95,10 +96,10 @@ body {
 .hero h1 {
     font-size: 48px;
     margin-bottom: 10px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
-.map{
+.map {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
 }
 
@@ -165,21 +166,31 @@ body {
 .img-3 {
     background-image: url('https://torange.biz/photo/41/IMAGE/ukrainian-trade-souvenirs-wooden-dishes-41512.jpg');
 }
-.img-4{
+
+.img-4 {
     background-image: url('https://moya-planeta.ru/upload/images/xl/7b/ee/7bee8799704035c615b499da0e1de668740ec620.jpg');
 }
-.img-5{
+
+.img-5 {
     background-image: url('https://gpvn.ru/files/2025/12/5-330.jpg');
 }
-.img-6{
+
+.img-6 {
     background-image: url('https://avatars.mds.yandex.net/i?id=451f44fa2f4d9ae6b6ee2c09d4c475d59926bb3a-10577947-images-thumbs&n=13');
 }
-.img-7{
+
+.img-7 {
     background-image: url('https://fleetphoto.ru/photo/01/29/07/129070.jpg');
 }
-.img-8{
+
+.img-8 {
     background-image: url('https://avatars.mds.yandex.net/get-altay/5751673/2a0000017d1c5902728d4c7e9f6e628cf106/XXXL');
 }
+
+.img-9 {
+    background-image: url('https://img.ixbt.site/live/topics/preview/00/11/20/07/93aedc9a99.png')
+}
+
 .card-body {
     padding: 20px;
 }
@@ -280,6 +291,7 @@ body {
     background-position: center;
     border-bottom: 3px solid #003366;
 }
+
 .ex-1 {
     background-image: url('https://upload.wikimedia.org/wikipedia/ru/6/63/V.P.Trofimov_-_altai.jpg');
 }
@@ -291,25 +303,31 @@ body {
 .ex-3 {
     background-image: url('https://yavarda.ru/images/artmir/sub_77096.jpg');
 }
-.ex-4{
-    background-image:url('https://0d314c86-f76b-45cc-874e-45816116a667.selcdn.net/e80b3ce5-621a-4e95-b535-89758da2f7c8.jpg');
+
+.ex-4 {
+    background-image: url('https://0d314c86-f76b-45cc-874e-45816116a667.selcdn.net/e80b3ce5-621a-4e95-b535-89758da2f7c8.jpg');
 }
 
-.ex-5{
-    background-image:url('https://admhmansy.ru/upload/iblock/957/i7x137j24qfo0opt7eylw1e7aklhpwmd/rOto5hWgqgk.jpg');
+.ex-5 {
+    background-image: url('https://admhmansy.ru/upload/iblock/957/i7x137j24qfo0opt7eylw1e7aklhpwmd/rOto5hWgqgk.jpg');
 }
-.ex-6{
-    background-image:url('https://avatars.mds.yandex.net/get-altay/3986639/2a00000179d81fccb0cd038ea206011a7037/orig');
+
+.ex-6 {
+    background-image: url('https://avatars.mds.yandex.net/get-altay/3986639/2a00000179d81fccb0cd038ea206011a7037/orig');
 }
-.ex-7{
+
+.ex-7 {
     background-image: url(images/img7.png);
 }
-.ex-8{
+
+.ex-8 {
     background-image: url(images/img8.png);
 }
-.ex-9{
+
+.ex-9 {
     background-image: url(images/img9.png);
 }
+
 .example-info {
     padding: 20px;
 }
@@ -333,7 +351,7 @@ body {
     text-align: left;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -344,4 +362,20 @@ footer {
     text-align: center;
     padding: 40px 0;
     margin-top: 60px;
+}
+
+.footer-nav {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
